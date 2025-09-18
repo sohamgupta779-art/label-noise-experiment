@@ -1,8 +1,10 @@
 # Label Noise Experiment on SST-2 with DistilBERT
 
-This project explores the effect of **label noise** in sentiment classification using the SST-2 dataset (from GLUE) and DistilBERT.  
+This project is inspired by the *Small-Bench NLP* research paper, which investigated how **small NLP models** (with fewer parameters, trainable on a single GPU) compare to large-scale models on benchmark tasks.
 
-We fine-tuned DistilBERT on clean labels, then repeated training with **10%** and **20% random label noise** to study how performance changes.
+We extend this idea by studying how a **small model (DistilBERT)** behaves under **label noise** — a common real-world data issue.  
+Instead of just asking *“can small models compete with big ones?”*, we also ask:  
+*“how robust are small models when the dataset labels are imperfect?”*
 
 ---
 
