@@ -6,6 +6,14 @@ We fine-tuned DistilBERT on clean labels, then repeated training with **10%** an
 
 ---
 
+##  Summary
+
+- Fine-tuned **DistilBERT** on the **SST-2 dataset (GLUE benchmark)**.  
+- Simulated noisy datasets by flipping **10%** and **20%** of labels.  
+- Compared performance on clean vs noisy training data.  
+- Found that **validation accuracy decreases** as label noise increases.  
+- Results are visualized in `results.png` and reproduced in code.
+
 ##  Results
 
 | Setting        | Validation Accuracy |
