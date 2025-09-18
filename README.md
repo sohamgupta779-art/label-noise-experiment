@@ -16,7 +16,7 @@ We fine-tuned DistilBERT on clean labels, then repeated training with **10%** an
 
 > Replace the placeholders with your actual accuracy values from the notebook.
 
-<img src="results.png" width="400">
+<img src="result.png" width="400">
 
 ---
 
